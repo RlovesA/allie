@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>I <3 You</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jquery-2.1.1.min.js"></script>
+
+    </head>
+    <body>
+        <div id="num0"> Click "Next" to start.</div>
+        <div id="num1"> Hey babe.</div>
+        <div id="num2"> I've been wanting to do something for you lately..</div>
+        <div id="num3"> So I decided to make you this nifty little website.</div>
+        <div id="num4"> You see, you mean so much to me. I would do anything
+                        to make you happy. </div>
+        <div id="num5"> But after a while, I feel like sending you sweet messages
+                        telling you how much I love you started to get boring.</div>
+        <div id="num6"> So I made you a website! </div>
+        <div id="num7"> Babe, you mean the world to me. I would do anything for you.
+                        I know with all your stress lately we haven't really been
+                        been able to do much of anything besides study, but that's okay.
+                        Just being with you makes me feel happy and content. </div>
+        <div id="num8"> And as far as your presentation goes, you're gonna do
+                        amazing! Because you're Allie Simms, the smartest, hardest
+                        working, most driven person I know! Not to mention, you're
+                        the cutest, sweetest, funniest, sexiest woman ever. Although
+                        I'm not sure that is gonna help you with your presentation.
+                        The only down side I've seen in you is that you're brutally
+                        competitive and will never let your boyfriend win in anything..</div>
+        <div id="num9"> You seriously have made me so happy over the past 18 months.
+                        (by the way, we both forgot about our 18th monthaversary)
+                        I know this is just some stupid website, but you mean so much
+                        to me, this is my way of letting you know you are my world,
+                        also while trying to cheer you up.</div>
+        <div id="num10"> I'm getting off subject though. Anyways, the point I've been trying
+                        to make is.. </div>
+        <div id="num11">I LOVE YOU! </div>
+        <div id="num12">...why are you still clicking the button? Wouldn't you think
+                        "I love you" is such a nice way to end it? Geez. </div>
+        <div id="num13">Well if you're gonna keep clicking, I guess I better make it good..
+                        <br><img src="1.jpg" width="20%" border="5px"/></div>
+        <div id="num14"><img src="2.jpg" width="20%" border="5px"/></div>
+        <div id="num15">I love you babe. <3
+                        <br><img src="3.jpg" width="20%" border="5px"/></div>
+        <div id="num16">I'm going to sleep. Goodnight!
+                        <br><img src="4.jpg" width="20%" border="5px"/></div>
+
+
+        <button id="btn"> Next </button>
+
+        <script>
+            var i = 1;
+            $(function() {
+                $("#btn").click(function() {
+                    var div = "#num" + i.toString();
+                    var lastDiv = "#num" + (i-1).toString();
+                    $(div).delay(200);
+                    $(div).animate({
+                        top: '200px'
+                    });
+                    $(lastDiv).fadeOut("200");
+                    i++;
+                });
+            });
+        </script>
+</html>
