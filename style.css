@@ -1,0 +1,155 @@
+html {
+  background-color: #4A4546;
+  color: #C9BBBF;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+button {
+  position: absolute;
+  bottom: 1%;
+  width: 98%;
+  height: 10%;
+  background-color: #935C6A;
+  color: inherit;
+  font: inherit;
+  border: none;
+}
+
+#num0 {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: 200px;
+}
+
+#num1 {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num2 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num3 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num4 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num5 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num6 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num7 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num8 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -200px;
+}
+
+#num9 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num10 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num11 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  font-size: 72px;
+  width: 98%;
+  top: -100px;
+}
+
+#num12 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -100px;
+}
+
+#num13 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -500px;
+}
+
+#num14 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -500px;
+}
+
+#num15 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -500px;
+}
+
+#num16 {
+  display: hidden;
+  position: absolute;
+  text-align: center;
+  width: 98%;
+  top: -500px;
+}
